@@ -1,1 +1,1 @@
-# DVS-Autoencoder
+# Event-Based(DVS)-Low Precison Autoencoder

@@ -38,7 +38,6 @@ classifier = CLassifier().to(device)
 autoencoder = Autoencoder().to(device)
 QUautoencoder = QUAutoencoder().to(device)
 qautoencoder = QuantAutoencoder().to(device)
-denoising = denoisingautoencoder().to(device)
 #qautoencoder = QAutoencoder().to(device)
 #qautoencoder = QAutoencoder()   
 ### Train Classifier ####

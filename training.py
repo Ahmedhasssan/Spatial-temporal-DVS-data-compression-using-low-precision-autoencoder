@@ -18,12 +18,12 @@ import os
 import dvs
 from utils import *
 from models import *
-from sparsity import *
+#from sparsity import *
 from modules import *
 import seaborn as sns
 from resnet import *
-from googlenet import *
-from ResNet import Bottleneck, ResNet, ResNet50
+#from googlenet import *
+#from ResNet import Bottleneck, ResNet, ResNet50
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 def img_quant(img):
